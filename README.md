@@ -1,4 +1,4 @@
-Tic-Tac-Toe Game
+# Tic-Tac-Toe Game
 
 ## Project Overview
 
@@ -57,3 +57,6 @@ Players take turns placing X or O until a player wins or the game ends in a draw
 - Grid : Manages the board, placing symbols, and checking for wins
 - Square : Represents each square with its symbol and coordinates
 - Symbol : Defines X, O, and EMPTY values
+
+## Author
+Carlo Efrem - 202400150

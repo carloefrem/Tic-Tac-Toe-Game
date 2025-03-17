@@ -49,7 +49,9 @@ Players take turns placing X or O until a player wins or the game ends in a draw
 - Players take turns entering coordinates (e.g., A1, B3) to place their symbol.
 - Winning conditions:
 A player wins by getting 3 symbols in a row (horizontal, vertical, or diagonal).
+
 If all squares are filled with no winner, the game ends in a draw.
+
 After the game ends, players can choose to play again or exit.
 
 ## Classes & Responsibilities 

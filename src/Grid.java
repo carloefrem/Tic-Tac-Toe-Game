@@ -45,12 +45,16 @@ public class Grid {
     }
 
     public void displayBoard() {
-        System.out.println("    A   B   C");
-        System.out.println("  -------------");
+        System.out.print("    ");
         for (int i = 0; i < SIZE; i++) {
-            System.out.print((i + 1) + " | ");
-            for (int j = 0; j < SIZE; j++) {
-                System.out.print(squares[i][j].getSymbol().getValue() + " | ");
+            System.out.print((i + 1) + "   ");
+            }
+        System.out.println();
+        System.out.println("  -------------");
+        for (int j = 0; j < SIZE; j++) {
+            System.out.print((char) ('A' + j) + " | ");
+            for (int i = 0; i < SIZE; i++) {
+                System.out.print(squares[j][i].getSymbol().getValue() + " | ");
             }
             System.out.println("\n  -------------");
         }

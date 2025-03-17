@@ -1,4 +1,5 @@
-                                                   > Tic-Tac-Toe Game <
+Tic-Tac-Toe Game
+
 ## Project Overview
 
 This is a Java-based Tic-Tac-Toe game that allows players to compete in:

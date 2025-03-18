@@ -44,22 +44,18 @@ public class Grid {
         return false;
     }
 
-    public void displayBoard() {
-        System.out.print("    ");
-        for (int i = 0; i < SIZE; i++) {
-            System.out.print((i + 1) + "   ");
-            }
-        System.out.println();
+ public void displayBoard() {
+        System.out.println("    A   B   C");
         System.out.println("  -------------");
-        for (int j = 0; j < SIZE; j++) {
-            System.out.print((char) ('A' + j) + " | ");
-            for (int i = 0; i < SIZE; i++) {
-                System.out.print(squares[j][i].getSymbol().getValue() + " | ");
+        for (int i = 0; i < SIZE; i++) {
+            System.out.print((i + 1) + " | ");
+            for (int j = 0; j < SIZE; j++) {
+                System.out.print(squares[i][j].getSymbol().getValue() + " | ");
             }
             System.out.println("\n  -------------");
         }
     }
-
+    
     public int[] getCoordinates(String move) {
         if (move.length() != 2) return null;
         int row = move.charAt(1) - '1';
